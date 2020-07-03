@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "assets/css/animate.css";
 import "assets/css/icomoon.css";
@@ -18,13 +18,9 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/about" component={About}></Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </div>
   );

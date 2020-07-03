@@ -1,11 +1,5 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  BrowserRouter,
-} from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
 export class Carousel extends Component {
   render() {
@@ -13,17 +7,17 @@ export class Carousel extends Component {
       <div>
         <header
           id="gtco-header"
-          class="gtco-cover gtco-cover-xs gtco-inner"
+          className="gtco-cover gtco-cover-xs gtco-inner"
           role="banner"
         >
-          <div class="gtco-container">
-            <div class="row">
-              <div class="col-md-12 col-md-offset-0 text-left">
-                <div class="display-t">
-                  <div class="display-tc">
-                    <div class="row">
-                      <div class="col-md-8 animate-box">
-                        <h1 class="no-margin">About Us</h1>
+          <div className="gtco-container">
+            <div className="row">
+              <div className="col-md-12 col-md-offset-0 text-left">
+                <div className="display-t">
+                  <div className="display-tc">
+                    <div className="row">
+                      <div className="col-md-8 animate-box">
+                        <h1 className="no-margin">About Us</h1>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipisicing
                           elit. Officia facilis, accusamus iusto animi.
