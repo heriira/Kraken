@@ -1,11 +1,4 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  BrowserRouter,
-} from "react-router-dom";
 import Cube from "assets/images/cube.png";
 
 export class Header extends Component {

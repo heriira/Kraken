@@ -10,12 +10,12 @@ export default function Header(props) {
           <div className="row">
             <div className="col-sm-2 col-xs-12">
               <div id="gtco-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img
                     src={Logo}
                     alt="Free HTML5 Website Template by FreeHTML5.co"
                   />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xs-10 text-right menu-1">
